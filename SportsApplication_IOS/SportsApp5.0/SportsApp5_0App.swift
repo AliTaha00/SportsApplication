@@ -12,8 +12,8 @@ import ParseSwift
 struct SportsApp5_0App: App {
     init() {
         let configuration = ParseConfiguration(
-            applicationId: "KuZevi7cG6b7ERH2RrlhB1I4MShFFwSOKAgzzCN4",
-            clientKey: "v9ZOzUlG0ddQA9rkWmk2uMo8F5B12o6Y6a2EHgXy",
+            applicationId: "",
+            clientKey: "",
             serverURL: URL(string: "https://parseapi.back4app.com")!
         )
         ParseSwift.initialize(configuration: configuration)
