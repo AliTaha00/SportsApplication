@@ -14,7 +14,7 @@ class StandingsViewModel: ObservableObject {
         }
         
         var request = URLRequest(url: url)
-        request.addValue("552ae297c3394824a50683ddf0f63221", forHTTPHeaderField: "X-Auth-Token")
+        request.addValue("API_Key", forHTTPHeaderField: "X-Auth-Token")
         
         URLSession.shared.dataTask(with: request) { [weak self] data, response, error in
             DispatchQueue.main.async {
