@@ -2,7 +2,7 @@ import Foundation
 
 class TeamsViewModel: ObservableObject {
     private let baseURL = "https://api.football-data.org"
-    private let apiKey = "552ae297c3394824a50683ddf0f63221"
+    private let apiKey = "API_Key"
     
     @Published var teams: [Team] = []
     @Published var isLoading = false
