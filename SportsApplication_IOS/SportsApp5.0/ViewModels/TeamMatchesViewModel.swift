@@ -6,7 +6,7 @@ class TeamMatchesViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var error: Error?
     
-    private let apiKey = "552ae297c3394824a50683ddf0f63221"
+    private let apiKey = "Api_Key"
     
     var lastFiveMatches: [Match] {
         let dateFormatter = ISO8601DateFormatter()
