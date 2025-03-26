@@ -7,7 +7,7 @@ class HomeViewModel: ObservableObject {
     @Published var error: Error?
     @Published var selectedDayOffset = 0
     
-    private let apiKey = "552ae297c3394824a50683ddf0f63221"
+    private let apiKey = "Api_Key"
     private var currentTask: Task<Void, Never>?
     
     private let leaguePriorities: [String: Int] = [
