@@ -5,7 +5,7 @@ class TopScorersViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var error: Error?
     
-    private let apiKey = "552ae297c3394824a50683ddf0f63221"
+    private let apiKey = "APi_kEY"
     
     func fetchScorers(for competitionCode: String) {
         isLoading = true
